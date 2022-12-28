@@ -3,43 +3,35 @@ import './About.css'
 
 export default function About() {
   return (
-    <div id="about">
-      <div className="container">
-      <h1>Global agriculture</h1>
-      <p>Zlatibor is a mountain of exceptional beauty whose special geographical properties have made this mountain a real gem of western Serbia.</p>
-      {/* <a href="#">Learn more</a> */}
-    </div>
-
-    <div className="blank" id="services">
-        <h2>Our Services</h2>
-    </div>
-
-    <div className="container second">
-      <div className="item">
-        <div className="img img-first"></div>
-        <div className="card">
-          <h3>Harvesting</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga eligendi consequatur accusamus modi ea! Corporis reiciendis omnis, explicabo, perspiciatis, illum similique ex corrupti sunt eaque exercitationem velit repellendus impedit?</p>
-          {/* <a href="#">Learn more</a> */}
+    <main className="about">
+  <div className="container">
+    <section className="grid info">
+      <div className="column-xs-12 column-md-1">
+        <div className="about">
+        <h1 className="section-heading">Global</h1>
         </div>
       </div>
-      <div className="item">
-        <div className="img img-second"></div>
-        <div className="card">
-          <h3>Fertility Boost</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, ab quas, beatae rem praesentium provident unde explicabo laborum illum ea nesciunt nobis vitae deleniti accusamus voluptas omnis ut. Soluta, debitis!</p>
-          {/* <a href="#">Learn more</a> */}
+      <div className="column-xs-12 column-md-4">
+        <img src="https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"/>
+      </div>
+      <div className="column-xs-12 column-md-7">
+        <div className="intro">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad officiis perspiciatis consequatur, exercitationem eveniet! Mollitia maxime voluptatum quam quia dolore inventore neque sit. Minima veritatis iusto fugit soluta ut.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quos optio necessitatibus. Cumque, culpa! Architecto id nemo iure esse molestias. Eum doloribus expedita temporibus explicabo aut nisi laboriosam aspernatur est?</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit autem, nulla voluptate incidunt fuga, tempore officia sequi atque, repellat aut ipsam aliquam perspiciatis asperiores aliquid doloribus quia nemo adipisci in.</p>
         </div>
       </div>
-      <div className="item">
-        <div className="img img-third"></div>
-        <div className="card">
-          <h3>Boost production</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, iusto esse? Eos sapiente quod aperiam soluta nihil molestiae tenetur dolore nam placeat! A in labore aspernatur repellat pariatur, voluptates facere!</p>
-          {/* <a href="#">Learn more</a> */}
-        </div>
+      <div className="column-xs-12 column-md-7">
+        <blockquote>
+          <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa provident voluptatem consectetur illum, natus placeat incidunt tempora architecto aliquid recusandae eligendi repudiandae ex laborum neque quod cum id facere nulla.</h3>
+        </blockquote>
       </div>
-    </div>
-    </div>
+      <div className="column-xs-12 column-md-5">
+        <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"/>
+      </div>
+    </section>
+  </div>
+</main>
   )
 }

@@ -9,7 +9,7 @@ const Home=()=> {
             <div className="info">
                 <h2>Like Nature<br/><span>Be Creative!</span></h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque praesentium culpa cumque, excepturi iure explicabo nihil ducimus nobis in sed ut. Explicabo voluptate natus dolores rem quae pariatur, praesentium reiciendis.</p>
-                <a href="#" class="info-btn">More info</a>
+                <a href="#" className="info-btn">More info</a>
             </div>
         </div>
         <div className="media-icons">

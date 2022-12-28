@@ -32,7 +32,9 @@
     margin-right: 30px;
 }
 .navbar header .navigation a:hover{
-    background: rgb(69, 202, 219);
+    height: 30vh;
+    background: rgb(0, 225, 255);
+    border-radius: 10px;
 }
 .navbar #check{
     z-index: 3;
