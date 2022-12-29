@@ -11,10 +11,9 @@ export default function Navbar() {
             <h2><a href="/" className="logo">Logo</a></h2>
             <div className="navigation">
                 <a href="/">Home</a>
-                {/* <Link to="/about">About</Link> */}
                 <a href="/about">About</a>
-                <a href="#">Info</a>
-                <a href="#">Services</a>
+                <Link to="/services">Services</Link>
+                {/* <a href="/services">Services</a> */}
                 <a href="/contact">Contact</a>
             </div>
             <label htmlFor="check">
