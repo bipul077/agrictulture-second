@@ -76,14 +76,12 @@
         margin-bottom: 50px;
         letter-spacing: 2px;
     }
-    .navbar #check:checked ~ header label .menu-btn{
-        display: none;
-    }
     .navbar #check:checked ~ header label .close-btn{
         z-index: 2;
         display: block;
         position: fixed;
     }
+   
     .navbar label .menu-btn{
         margin-right: 0.5rem;
     }
