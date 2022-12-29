@@ -11,7 +11,7 @@ export default function Navbar() {
             <h2><Link to="/" className="logo">Logo</Link></h2>
             <div className="navigation">
                 <Link to="/">Home</Link>
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
                 <Link to="/services">Services</Link>
                 {/* <a href="/services">Services</a> */}
                 <Link to="/contact">Contact</Link>
