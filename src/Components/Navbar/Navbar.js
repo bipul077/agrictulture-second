@@ -11,10 +11,11 @@ export default function Navbar() {
             <h2><a href="/" className="logo">Logo</a></h2>
             <div className="navigation">
                 <a href="/">Home</a>
-                <Link to="/about">About</Link>
+                {/* <Link to="/about">About</Link> */}
+                <a href="/about">About</a>
                 <a href="#">Info</a>
                 <a href="#">Services</a>
-                <a href="#">Contact</a>
+                <a href="/contact">Contact</a>
             </div>
             <label htmlFor="check">
                 <i className="fas fa-bars menu-btn"></i>

@@ -1,31 +1,26 @@
-import React from "react";
-import "./Footer.css";
-
+import React from 'react'
+import './Footer.css'
 export default function Footer() {
   return (
-    <div>
-      <div id="footer2">
-        <footer>
-          <ul className="navCat">
-            <li className="topLevel">About</li>
-            <li>About Us</li>
-            <li>Our Story</li>
-            <li>FAQ</li>
-          </ul>
-          <ul className="navCat">
-            <li className="topLevel">Services</li>
-            <li>Custom Orders</li>
-            <li>Wholesale</li>
-          </ul>
-          <ul className="navCat">
-            <li className="topLevel">Contact</li>
-            <li>Customer Service</li>
-            <li>Careers</li>
-            <li>Community</li>
-            <li>Social Media</li>
-          </ul>
-        </footer>
+    <div className="Footer">
+      <div className="subcontainer">
+      <div className="waves">
+        <div className="wave" id="wave1"></div>
+        <div className="wave" id="wave2"></div>
+        <div className="wave" id="wave3"></div>
+        <div className="wave" id="wave4"></div>
+      </div>
+        <ul className="socialicon">
+          <li><a href="#"><i className='fa fa-facebook'></i></a></li>
+          <li><a href="#"><i className='fa fa-twitter'></i></a></li>
+          <li><a href="#"><i className='fa fa-instagram'></i></a></li>
+          <li><a href="#"><i className='fa fa-youtube'></i></a></li>
+        </ul>
+        <div className="text">
+          <h2>Global Group of Company</h2>
+          <p>@Copyright issue 2022</p>
+        </div>
       </div>
     </div>
-  );
+  )
 }
