@@ -8,13 +8,13 @@ export default function Navbar() {
     <div className="navbar">
        <input type="checkbox" id="check"/>
         <header>
-            <h2><a href="/" className="logo">Logo</a></h2>
+            <h2><Link to="/" className="logo">Logo</Link></h2>
             <div className="navigation">
-                <a href="/">Home</a>
-                {/* <Link to="/about">About</Link> */}
+                <Link to="/">Home</Link>
                 <a href="/about">About</a>
-                <a href="#">Services</a>
-                <a href="/contact">Contact</a>
+                <Link to="/services">Services</Link>
+                {/* <a href="/services">Services</a> */}
+                <Link to="/contact">Contact</Link>
             </div>
             <label htmlFor="check">
                 <i className="fas fa-bars menu-btn"></i>
