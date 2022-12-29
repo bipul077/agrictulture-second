@@ -4,56 +4,17 @@ import "./Contact.css"
 export default function Contact() {
   return (
     <div id="contact">
-      <div class="background">
-        <div class="contactcontainer">
-          <div class="screen">
-            <div class="screen-header">
-              <div class="screen-header-left">
-                <div class="screen-header-button close"></div>
-                <div class="screen-header-button maximize"></div>
-                <div class="screen-header-button minimize"></div>
-              </div>
-              <div class="screen-header-right">
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
-              </div>
-            </div>
-            <div class="screen-body">
-              <div class="screen-body-item left">
-                <div class="app-title">
-                  <span>CONTACT</span>
-                  <span>US</span>
-                </div>
-                <div class="app-contact">CONTACT INFO : +977 9812345678</div>
-              </div>
-              <div class="screen-body-item">
-                <div class="app-form">
-                  <div class="app-form-group">
-                    <input
-                      class="app-form-control"
-                      placeholder="NAME"
-                    />
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="EMAIL" />
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="CONTACT NO" />
-                  </div>
-                  <div class="app-form-group message">
-                    <input class="app-form-control" placeholder="MESSAGE" />
-                  </div>
-                  <div class="app-form-group buttons">
-                    {/* <button class="app-form-button">CANCEL</button> */}
-                    <button class="app-form-button">SEND</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <form class="form">
+        <h2>CONTACT US</h2>
+        <p type="Name:"><input placeholder="Write your name here.."></input></p>
+        <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+        <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
+        <button>Send Message</button>
+        <div>
+          <span class="fa fa-phone"></span>001 1023 567
+          <span class="fa fa-envelope-o"></span> contact@company.com
         </div>
-      </div>
+      </form>
     </div>
   );
 }

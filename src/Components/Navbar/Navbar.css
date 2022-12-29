@@ -32,7 +32,8 @@
     margin-right: 30px;
 }
 .navbar header .navigation a:hover{
-    background: rgb(69, 202, 219);
+    background: rgb(0, 225, 255);
+    border-radius: 10px;
 }
 .navbar #check{
     z-index: 3;
@@ -60,7 +61,8 @@
     .navbar #check:checked ~ header .navigation{
         z-index: 2;
         position: fixed;
-        background: rgba(100, 214, 170, 0.9);
+        /* background: rgba(100, 214, 170, 0.9); */
+        background: rgb(0, 225, 255);
         top: 0;
         bottom: 0;
         left: 0;
@@ -76,6 +78,9 @@
         margin-bottom: 50px;
         letter-spacing: 2px;
     }
+    /* .navbar #check:checked ~ header label .menu-btn{
+        display: none;
+    } */
     .navbar #check:checked ~ header label .close-btn{
         z-index: 2;
         display: block;
