@@ -1,8 +1,10 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 import './Home.css'
+import HomeContents from '../HomeContents/HomeContents';
 const Home=()=> {
   return (
+    <>
     <div className="home">
       <section>
         <div className="content">
@@ -18,7 +20,10 @@ const Home=()=> {
             <a href="#"><i className="fa-brands fa-instagram"></i></a>
         </div>
       </section>
-  </div>
+    </div>
+      <HomeContents/>
+
+    </>
   )
 }
 export default Home;
